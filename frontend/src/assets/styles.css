@@ -1,0 +1,401 @@
+:root {
+  --bg: #eef3f8;
+  --panel: #ffffff;
+  --panel-soft: #f8fbff;
+  --line: #dfe8f2;
+  --line-strong: #c9d7e7;
+  --text: #182334;
+  --muted: #69788c;
+  --weak: #93a1b4;
+  --primary: #2468d8;
+  --primary-dark: #153f8f;
+  --green: #18a058;
+  --orange: #d9822b;
+  --red: #d64545;
+  --bluegray: #607d9c;
+  --shadow: 0 10px 28px rgba(24, 35, 52, 0.07);
+  --radius: 8px;
+  --gap: 14px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Microsoft YaHei", "PingFang SC", Arial, sans-serif;
+  font-size: 14px;
+}
+
+.page {
+  height: 100%;
+  min-height: 0;
+  padding: 14px 18px 14px 14px;
+  overflow: hidden;
+  box-sizing: border-box;
+  background:
+    linear-gradient(
+      180deg,
+      rgba(36, 104, 216, 0.05),
+      rgba(36, 104, 216, 0) 220px
+    ),
+    var(--bg);
+}
+
+.workbench {
+  display: grid;
+  gap: var(--gap);
+}
+
+.workbench.two-col {
+  grid-template-columns: minmax(0, 1.35fr) minmax(340px, 0.65fr);
+}
+
+.workbench.three-col {
+  grid-template-columns: 280px minmax(0, 1fr) 360px;
+}
+
+.workbench.control-canvas-detail {
+  grid-template-columns: 260px minmax(0, 1fr) 340px;
+}
+
+.panel,
+.card {
+  min-width: 0;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.panel {
+  padding: 14px;
+}
+
+.panel.tight {
+  padding: 10px;
+}
+
+.section-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  min-height: 32px;
+  margin-bottom: 10px;
+}
+
+.section-title h3,
+.section-title h2 {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 700;
+  color: #1b2b42;
+}
+
+.section-title span {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.muted {
+  color: var(--muted);
+}
+
+.weak {
+  color: var(--weak);
+}
+
+.grid {
+  display: grid;
+  gap: var(--gap);
+}
+
+.grid-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.grid-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.grid-4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.grid-6 {
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+
+.kpi-row {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: var(--gap);
+  margin-bottom: var(--gap);
+}
+
+.kpi-card {
+  height: 96px;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 12px;
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.kpi-label {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.kpi-value {
+  color: var(--primary-dark);
+  font-size: 27px;
+  line-height: 1;
+  font-weight: 800;
+}
+
+.kpi-desc {
+  color: var(--weak);
+  font-size: 12px;
+}
+
+.toolbar {
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.chart {
+  width: 100%;
+  min-width: 0;
+  height: 300px;
+}
+
+.chart.compact {
+  height: 230px;
+}
+
+.chart.large {
+  height: 600px;
+}
+
+.table-panel {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.table-fill {
+  flex: 1;
+  min-height: 0;
+}
+
+.detail-list {
+  display: grid;
+  gap: 8px;
+}
+
+.detail-item {
+  padding: 9px 10px;
+  background: var(--panel-soft);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+}
+
+.detail-label {
+  color: var(--muted);
+  font-size: 12px;
+  margin-bottom: 4px;
+}
+
+.detail-value {
+  font-weight: 650;
+  color: var(--text);
+  word-break: break-all;
+}
+
+.status-ok,
+.status-normal {
+  color: var(--green);
+  font-weight: 700;
+}
+
+.status-risk {
+  color: var(--orange);
+  font-weight: 700;
+}
+
+.status-danger {
+  color: var(--red);
+  font-weight: 700;
+}
+
+.status-neutral {
+  color: var(--bluegray);
+  font-weight: 700;
+}
+
+.analysis-step {
+  display: grid;
+  grid-template-columns: 32px 1fr auto;
+  gap: 10px;
+  align-items: center;
+  padding: 10px;
+  background: var(--panel-soft);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+}
+
+.step-index {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: #e8f0ff;
+  color: var(--primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+}
+
+.flow-list {
+  display: grid;
+  gap: 9px;
+}
+
+.analysis-nav {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: var(--gap);
+}
+
+.nav-card {
+  cursor: pointer;
+  min-height: 112px;
+  padding: 14px;
+  background: linear-gradient(180deg, #ffffff, #f6f9ff);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  transition: all 0.18s ease;
+}
+
+.nav-card:hover {
+  transform: translateY(-2px);
+  border-color: #9dbcf6;
+}
+
+.nav-card h3 {
+  margin: 0 0 8px;
+  font-size: 15px;
+}
+
+.nav-card p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.55;
+}
+
+.split-detail {
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr);
+  gap: 10px;
+  height: 100%;
+}
+
+.scroll-area {
+  overflow: auto;
+}
+
+.code-box {
+  background: #101a2b;
+  color: #dbeafe;
+  border-radius: 6px;
+  padding: 12px;
+  overflow: auto;
+  font-family: Consolas, Monaco, monospace;
+  font-size: 12px;
+  line-height: 1.55;
+}
+
+.tag-line {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.empty-hint {
+  min-height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--weak);
+  background: var(--panel-soft);
+  border: 1px dashed var(--line-strong);
+  border-radius: var(--radius);
+}
+
+.el-table {
+  --el-table-header-bg-color: #f4f7fb;
+  --el-table-row-hover-bg-color: #eef5ff;
+}
+
+.el-card {
+  border-radius: var(--radius);
+}
+
+@media (max-width: 1280px) {
+  .workbench.three-col,
+  .workbench.control-canvas-detail {
+    grid-template-columns: 240px minmax(0, 1fr);
+  }
+
+  .workbench.three-col > :last-child,
+  .workbench.control-canvas-detail > :last-child {
+    grid-column: 1 / -1;
+  }
+
+  .kpi-row {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .analysis-nav {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 900px) {
+  .workbench.two-col,
+  .workbench.three-col,
+  .workbench.control-canvas-detail,
+  .grid-2,
+  .grid-3,
+  .grid-4,
+  .grid-6,
+  .analysis-nav {
+    grid-template-columns: 1fr;
+  }
+
+  .kpi-row {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}

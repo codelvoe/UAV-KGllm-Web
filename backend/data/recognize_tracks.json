@@ -1,0 +1,482 @@
+[
+  {
+    "track_id": "trk_track_recognize_4",
+    "local_track_id": "track_recognize_4",
+    "source": "recognize",
+    "start_time": "2026-04-14T12:57:15+08:00",
+    "end_time": "2026-04-14T13:02:30+08:00",
+    "point_count": 24,
+    "local_target_ids": [
+      "4"
+    ],
+    "line_no_min": 1,
+    "line_no_max": 241,
+    "target_type": "drone",
+    "similarity_mean": 82.125,
+    "similarity_max": 97.0,
+    "bbox_x_mean": 298.4967,
+    "bbox_y_mean": 21.6083,
+    "bbox_width_mean": 24.9167,
+    "bbox_height_mean": 16.5833
+  },
+  {
+    "track_id": "trk_track_recognize_1",
+    "local_track_id": "track_recognize_1",
+    "source": "recognize",
+    "start_time": "2026-04-14T12:57:17+08:00",
+    "end_time": "2026-04-14T13:04:15+08:00",
+    "point_count": 66,
+    "local_target_ids": [
+      "1"
+    ],
+    "line_no_min": 3,
+    "line_no_max": 287,
+    "target_type": "drone",
+    "similarity_mean": 80.8333,
+    "similarity_max": 99.0,
+    "bbox_x_mean": 279.6627,
+    "bbox_y_mean": 6.0614,
+    "bbox_width_mean": 34.2727,
+    "bbox_height_mean": 19.6212
+  },
+  {
+    "track_id": "trk_track_recognize_9",
+    "local_track_id": "track_recognize_9",
+    "source": "recognize",
+    "start_time": "2026-04-14T12:57:18+08:00",
+    "end_time": "2026-04-14T12:57:18+08:00",
+    "point_count": 1,
+    "local_target_ids": [
+      "9"
+    ],
+    "line_no_min": 5,
+    "line_no_max": 5,
+    "target_type": "drone",
+    "similarity_mean": 93.0,
+    "similarity_max": 93.0,
+    "bbox_x_mean": 355.0,
+    "bbox_y_mean": 41.9213,
+    "bbox_width_mean": 16.0,
+    "bbox_height_mean": 13.0
+  },
+  {
+    "track_id": "trk_track_recognize_10",
+    "local_track_id": "track_recognize_10",
+    "source": "recognize",
+    "start_time": "2026-04-14T12:57:19+08:00",
+    "end_time": "2026-04-14T12:57:20+08:00",
+    "point_count": 2,
+    "local_target_ids": [
+      "10"
+    ],
+    "line_no_min": 7,
+    "line_no_max": 9,
+    "target_type": "drone",
+    "similarity_mean": 92.5,
+    "similarity_max": 96.0,
+    "bbox_x_mean": 354.995,
+    "bbox_y_mean": 41.8372,
+    "bbox_width_mean": 16.0,
+    "bbox_height_mean": 15.0
+  },
+  {
+    "track_id": "trk_track_recognize_2",
+    "local_track_id": "track_recognize_2",
+    "source": "recognize",
+    "start_time": "2026-04-14T12:57:24+08:00",
+    "end_time": "2026-04-14T13:04:13+08:00",
+    "point_count": 3,
+    "local_target_ids": [
+      "2"
+    ],
+    "line_no_min": 11,
+    "line_no_max": 283,
+    "target_type": "drone",
+    "similarity_mean": 72.6667,
+    "similarity_max": 93.0,
+    "bbox_x_mean": 181.8667,
+    "bbox_y_mean": 0.2174,
+    "bbox_width_mean": 38.0,
+    "bbox_height_mean": 20.6667
+  },
+  {
+    "track_id": "trk_track_recognize_12",
+    "local_track_id": "track_recognize_12",
+    "source": "recognize",
+    "start_time": "2026-04-14T12:57:44+08:00",
+    "end_time": "2026-04-14T13:01:04+08:00",
+    "point_count": 4,
+    "local_target_ids": [
+      "12"
+    ],
+    "line_no_min": 37,
+    "line_no_max": 207,
+    "target_type": "drone",
+    "similarity_mean": 67.5,
+    "similarity_max": 82.0,
+    "bbox_x_mean": 270.53,
+    "bbox_y_mean": 14.4837,
+    "bbox_width_mean": 25.0,
+    "bbox_height_mean": 13.0
+  },
+  {
+    "track_id": "trk_track_recognize_14",
+    "local_track_id": "track_recognize_14",
+    "source": "recognize",
+    "start_time": "2026-04-14T12:57:48+08:00",
+    "end_time": "2026-04-14T12:58:22+08:00",
+    "point_count": 2,
+    "local_target_ids": [
+      "14"
+    ],
+    "line_no_min": 43,
+    "line_no_max": 79,
+    "target_type": "drone",
+    "similarity_mean": 95.5,
+    "similarity_max": 96.0,
+    "bbox_x_mean": 357.97,
+    "bbox_y_mean": 24.9343,
+    "bbox_width_mean": 22.0,
+    "bbox_height_mean": 19.5
+  },
+  {
+    "track_id": "trk_track_recognize_21",
+    "local_track_id": "track_recognize_21",
+    "source": "recognize",
+    "start_time": "2026-04-14T12:57:49+08:00",
+    "end_time": "2026-04-14T12:57:49+08:00",
+    "point_count": 1,
+    "local_target_ids": [
+      "21"
+    ],
+    "line_no_min": 45,
+    "line_no_max": 45,
+    "target_type": "drone",
+    "similarity_mean": 91.0,
+    "similarity_max": 91.0,
+    "bbox_x_mean": 356.93,
+    "bbox_y_mean": 29.2657,
+    "bbox_width_mean": 10.0,
+    "bbox_height_mean": 9.0
+  },
+  {
+    "track_id": "trk_track_recognize_27",
+    "local_track_id": "track_recognize_27",
+    "source": "recognize",
+    "start_time": "2026-04-14T12:57:50+08:00",
+    "end_time": "2026-04-14T12:57:50+08:00",
+    "point_count": 1,
+    "local_target_ids": [
+      "27"
+    ],
+    "line_no_min": 47,
+    "line_no_max": 47,
+    "target_type": "drone",
+    "similarity_mean": 85.0,
+    "similarity_max": 85.0,
+    "bbox_x_mean": 356.96,
+    "bbox_y_mean": 30.1771,
+    "bbox_width_mean": 21.0,
+    "bbox_height_mean": 16.0
+  },
+  {
+    "track_id": "trk_track_recognize_31",
+    "local_track_id": "track_recognize_31",
+    "source": "recognize",
+    "start_time": "2026-04-14T12:57:51+08:00",
+    "end_time": "2026-04-14T12:57:51+08:00",
+    "point_count": 1,
+    "local_target_ids": [
+      "31"
+    ],
+    "line_no_min": 49,
+    "line_no_max": 49,
+    "target_type": "drone",
+    "similarity_mean": 78.0,
+    "similarity_max": 78.0,
+    "bbox_x_mean": 357.75,
+    "bbox_y_mean": 28.7194,
+    "bbox_width_mean": 21.0,
+    "bbox_height_mean": 13.0
+  },
+  {
+    "track_id": "trk_track_recognize_37",
+    "local_track_id": "track_recognize_37",
+    "source": "recognize",
+    "start_time": "2026-04-14T12:57:52+08:00",
+    "end_time": "2026-04-14T12:57:52+08:00",
+    "point_count": 1,
+    "local_target_ids": [
+      "37"
+    ],
+    "line_no_min": 51,
+    "line_no_max": 51,
+    "target_type": "drone",
+    "similarity_mean": 94.0,
+    "similarity_max": 94.0,
+    "bbox_x_mean": 357.45,
+    "bbox_y_mean": 28.2918,
+    "bbox_width_mean": 18.0,
+    "bbox_height_mean": 15.0
+  },
+  {
+    "track_id": "trk_track_recognize_39",
+    "local_track_id": "track_recognize_39",
+    "source": "recognize",
+    "start_time": "2026-04-14T12:57:53+08:00",
+    "end_time": "2026-04-14T12:57:53+08:00",
+    "point_count": 1,
+    "local_target_ids": [
+      "39"
+    ],
+    "line_no_min": 53,
+    "line_no_max": 53,
+    "target_type": "drone",
+    "similarity_mean": 93.0,
+    "similarity_max": 93.0,
+    "bbox_x_mean": 357.29,
+    "bbox_y_mean": 27.6356,
+    "bbox_width_mean": 16.0,
+    "bbox_height_mean": 13.0
+  },
+  {
+    "track_id": "trk_track_recognize_41",
+    "local_track_id": "track_recognize_41",
+    "source": "recognize",
+    "start_time": "2026-04-14T12:57:54+08:00",
+    "end_time": "2026-04-14T12:57:55+08:00",
+    "point_count": 2,
+    "local_target_ids": [
+      "41"
+    ],
+    "line_no_min": 55,
+    "line_no_max": 57,
+    "target_type": "drone",
+    "similarity_mean": 77.0,
+    "similarity_max": 85.0,
+    "bbox_x_mean": 357.465,
+    "bbox_y_mean": 26.7262,
+    "bbox_width_mean": 17.0,
+    "bbox_height_mean": 10.0
+  },
+  {
+    "track_id": "trk_track_recognize_7",
+    "local_track_id": "track_recognize_7",
+    "source": "recognize",
+    "start_time": "2026-04-14T12:57:58+08:00",
+    "end_time": "2026-04-14T13:04:11+08:00",
+    "point_count": 7,
+    "local_target_ids": [
+      "7"
+    ],
+    "line_no_min": 61,
+    "line_no_max": 279,
+    "target_type": "drone",
+    "similarity_mean": 71.4286,
+    "similarity_max": 97.0,
+    "bbox_x_mean": 286.6757,
+    "bbox_y_mean": 9.4008,
+    "bbox_width_mean": 34.4286,
+    "bbox_height_mean": 26.0
+  },
+  {
+    "track_id": "trk_track_recognize_5",
+    "local_track_id": "track_recognize_5",
+    "source": "recognize",
+    "start_time": "2026-04-14T12:58:02+08:00",
+    "end_time": "2026-04-14T13:02:21+08:00",
+    "point_count": 9,
+    "local_target_ids": [
+      "5"
+    ],
+    "line_no_min": 63,
+    "line_no_max": 237,
+    "target_type": "drone",
+    "similarity_mean": 75.5556,
+    "similarity_max": 98.0,
+    "bbox_x_mean": 305.6222,
+    "bbox_y_mean": 7.6716,
+    "bbox_width_mean": 42.0,
+    "bbox_height_mean": 22.7778
+  },
+  {
+    "track_id": "trk_track_recognize_3",
+    "local_track_id": "track_recognize_3",
+    "source": "recognize",
+    "start_time": "2026-04-14T12:58:06+08:00",
+    "end_time": "2026-04-14T13:04:15+08:00",
+    "point_count": 20,
+    "local_target_ids": [
+      "3"
+    ],
+    "line_no_min": 65,
+    "line_no_max": 287,
+    "target_type": "drone",
+    "similarity_mean": 87.95,
+    "similarity_max": 98.0,
+    "bbox_x_mean": 309.679,
+    "bbox_y_mean": 4.9834,
+    "bbox_width_mean": 30.2,
+    "bbox_height_mean": 19.55
+  },
+  {
+    "track_id": "trk_track_recognize_8",
+    "local_track_id": "track_recognize_8",
+    "source": "recognize",
+    "start_time": "2026-04-14T12:58:20+08:00",
+    "end_time": "2026-04-14T13:02:03+08:00",
+    "point_count": 2,
+    "local_target_ids": [
+      "8"
+    ],
+    "line_no_min": 75,
+    "line_no_max": 227,
+    "target_type": "drone",
+    "similarity_mean": 79.5,
+    "similarity_max": 95.0,
+    "bbox_x_mean": 339.335,
+    "bbox_y_mean": 7.763,
+    "bbox_width_mean": 26.5,
+    "bbox_height_mean": 17.5
+  },
+  {
+    "track_id": "trk_track_recognize_11",
+    "local_track_id": "track_recognize_11",
+    "source": "recognize",
+    "start_time": "2026-04-14T12:58:21+08:00",
+    "end_time": "2026-04-14T13:01:02+08:00",
+    "point_count": 2,
+    "local_target_ids": [
+      "11"
+    ],
+    "line_no_min": 77,
+    "line_no_max": 203,
+    "target_type": "drone",
+    "similarity_mean": 75.5,
+    "similarity_max": 97.0,
+    "bbox_x_mean": 272.05,
+    "bbox_y_mean": 8.5053,
+    "bbox_width_mean": 30.5,
+    "bbox_height_mean": 24.0
+  },
+  {
+    "track_id": "trk_track_recognize_16",
+    "local_track_id": "track_recognize_16",
+    "source": "recognize",
+    "start_time": "2026-04-14T12:58:23+08:00",
+    "end_time": "2026-04-14T12:58:23+08:00",
+    "point_count": 1,
+    "local_target_ids": [
+      "16"
+    ],
+    "line_no_min": 81,
+    "line_no_max": 81,
+    "target_type": "drone",
+    "similarity_mean": 97.0,
+    "similarity_max": 97.0,
+    "bbox_x_mean": 359.07,
+    "bbox_y_mean": 16.0662,
+    "bbox_width_mean": 21.0,
+    "bbox_height_mean": 15.0
+  },
+  {
+    "track_id": "trk_track_recognize_18",
+    "local_track_id": "track_recognize_18",
+    "source": "recognize",
+    "start_time": "2026-04-14T12:58:24+08:00",
+    "end_time": "2026-04-14T12:58:26+08:00",
+    "point_count": 3,
+    "local_target_ids": [
+      "18"
+    ],
+    "line_no_min": 83,
+    "line_no_max": 87,
+    "target_type": "drone",
+    "similarity_mean": 97.6667,
+    "similarity_max": 98.0,
+    "bbox_x_mean": 359.06,
+    "bbox_y_mean": 15.3774,
+    "bbox_width_mean": 18.0,
+    "bbox_height_mean": 13.0
+  },
+  {
+    "track_id": "trk_track_recognize_6",
+    "local_track_id": "track_recognize_6",
+    "source": "recognize",
+    "start_time": "2026-04-14T12:59:02+08:00",
+    "end_time": "2026-04-14T13:03:24+08:00",
+    "point_count": 10,
+    "local_target_ids": [
+      "6"
+    ],
+    "line_no_min": 105,
+    "line_no_max": 261,
+    "target_type": "drone",
+    "similarity_mean": 76.8,
+    "similarity_max": 97.0,
+    "bbox_x_mean": 298.779,
+    "bbox_y_mean": 3.105,
+    "bbox_width_mean": 30.0,
+    "bbox_height_mean": 18.5
+  },
+  {
+    "track_id": "trk_track_recognize_15",
+    "local_track_id": "track_recognize_15",
+    "source": "recognize",
+    "start_time": "2026-04-14T13:01:04+08:00",
+    "end_time": "2026-04-14T13:01:04+08:00",
+    "point_count": 1,
+    "local_target_ids": [
+      "15"
+    ],
+    "line_no_min": 207,
+    "line_no_max": 207,
+    "target_type": "drone",
+    "similarity_mean": 57.0,
+    "similarity_max": 57.0,
+    "bbox_x_mean": 184.58,
+    "bbox_y_mean": -0.0341,
+    "bbox_width_mean": 117.0,
+    "bbox_height_mean": 71.0
+  },
+  {
+    "track_id": "trk_track_recognize_17",
+    "local_track_id": "track_recognize_17",
+    "source": "recognize",
+    "start_time": "2026-04-14T13:01:05+08:00",
+    "end_time": "2026-04-14T13:01:05+08:00",
+    "point_count": 1,
+    "local_target_ids": [
+      "17"
+    ],
+    "line_no_min": 209,
+    "line_no_max": 209,
+    "target_type": "drone",
+    "similarity_mean": 53.0,
+    "similarity_max": 53.0,
+    "bbox_x_mean": 184.56,
+    "bbox_y_mean": 0.0531,
+    "bbox_width_mean": 74.0,
+    "bbox_height_mean": 60.0
+  },
+  {
+    "track_id": "trk_track_recognize_19",
+    "local_track_id": "track_recognize_19",
+    "source": "recognize",
+    "start_time": "2026-04-14T13:01:06+08:00",
+    "end_time": "2026-04-14T13:01:06+08:00",
+    "point_count": 1,
+    "local_target_ids": [
+      "19"
+    ],
+    "line_no_min": 211,
+    "line_no_max": 211,
+    "target_type": "drone",
+    "similarity_mean": 62.0,
+    "similarity_max": 62.0,
+    "bbox_x_mean": 184.56,
+    "bbox_y_mean": -0.2203,
+    "bbox_width_mean": 74.0,
+    "bbox_height_mean": 61.0
+  }
+]

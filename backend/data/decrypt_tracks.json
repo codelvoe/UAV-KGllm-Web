@@ -1,0 +1,21 @@
+[
+  {
+    "track_id": "trk_track_decrypt_F6N8C23C40037K1T",
+    "local_track_id": "track_decrypt_F6N8C23C40037K1T",
+    "source": "decrypt",
+    "start_time": "2026-04-14T12:46:30+08:00",
+    "end_time": "2026-04-14T12:53:32+08:00",
+    "point_count": 422,
+    "local_target_ids": [
+      "F6N8C23C40037K1T"
+    ],
+    "line_no_min": 1,
+    "line_no_max": 843,
+    "target_id": "F6N8C23C40037K1T",
+    "model": "Air 3",
+    "longitude_mean": 112.806775,
+    "latitude_mean": 28.116378,
+    "altitude_mean": 130.3009,
+    "speed_mean": 4.7286
+  }
+]

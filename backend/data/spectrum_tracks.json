@@ -1,0 +1,46 @@
+[
+  {
+    "track_id": "trk_track_spectrum_79490",
+    "local_track_id": "track_spectrum_79490",
+    "source": "spectrum",
+    "start_time": "2026-04-14T12:46:30+08:00",
+    "end_time": "2026-04-14T12:53:32+08:00",
+    "point_count": 422,
+    "local_target_ids": [
+      "79490"
+    ],
+    "line_no_min": 1,
+    "line_no_max": 843,
+    "model": "DJI Air3",
+    "target_type": "drone",
+    "azimuth_mean": 111.0427,
+    "signal_db_mean": 101.1001,
+    "signal_db_max": 108.1541,
+    "confidence_mean": 92.4526,
+    "confidence_max": 93.0,
+    "frequency_khz_mean": 5792.1983,
+    "bandwidth_khz_mean": 33.8588
+  },
+  {
+    "track_id": "trk_track_spectrum_81397",
+    "local_track_id": "track_spectrum_81397",
+    "source": "spectrum",
+    "start_time": "2026-04-14T12:52:55+08:00",
+    "end_time": "2026-04-14T12:53:32+08:00",
+    "point_count": 23,
+    "local_target_ids": [
+      "81397"
+    ],
+    "line_no_min": 769,
+    "line_no_max": 843,
+    "model": "DJI Air3",
+    "target_type": "drone",
+    "azimuth_mean": 263.6957,
+    "signal_db_mean": 90.142,
+    "signal_db_max": 101.2574,
+    "confidence_mean": 79.3913,
+    "confidence_max": 86.0,
+    "frequency_khz_mean": 5802.7565,
+    "bandwidth_khz_mean": 36.0
+  }
+]

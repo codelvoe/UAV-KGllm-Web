@@ -1,0 +1,222 @@
+[
+  {
+    "candidate_id": "C01",
+    "candidate_source": "radar-spectrum",
+    "scenario": "完整模态",
+    "radar_track_id": "trk_track_radar_343",
+    "spectrum_track_id": "trk_track_spectrum_79490",
+    "recognize_track_id": "trk_track_recognize_2",
+    "time_overlap": 138,
+    "azimuth_diff": 3.6,
+    "kg_score": 0.905,
+    "rank": 1,
+    "conflict_flag": false,
+    "decision_status": "confirm",
+    "score_breakdown": {
+      "time_score": 0.89,
+      "azimuth_score": 0.92,
+      "semantic_score": 0.82,
+      "signal_score": 0.93,
+      "radar_score": 0.67,
+      "motion_score": 0.82
+    }
+  },
+  {
+    "candidate_id": "C02",
+    "candidate_source": "radar-spectrum",
+    "scenario": "自然冲突",
+    "radar_track_id": "trk_track_radar_278",
+    "spectrum_track_id": "trk_track_spectrum_79490",
+    "recognize_track_id": "trk_track_recognize_3",
+    "time_overlap": 132,
+    "azimuth_diff": 5.2,
+    "kg_score": 0.88,
+    "rank": 2,
+    "conflict_flag": true,
+    "decision_status": "reject",
+    "score_breakdown": {
+      "time_score": 0.88,
+      "azimuth_score": 0.89,
+      "semantic_score": 0.45,
+      "signal_score": 0.93,
+      "radar_score": 0.64,
+      "motion_score": 0.82
+    }
+  },
+  {
+    "candidate_id": "C03",
+    "candidate_source": "radar-spectrum",
+    "scenario": "完整模态",
+    "radar_track_id": "trk_track_radar_203",
+    "spectrum_track_id": "trk_track_spectrum_79490",
+    "recognize_track_id": "trk_track_recognize_4",
+    "time_overlap": 118,
+    "azimuth_diff": 6.8,
+    "kg_score": 0.855,
+    "rank": 3,
+    "conflict_flag": false,
+    "decision_status": "reject",
+    "score_breakdown": {
+      "time_score": 0.87,
+      "azimuth_score": 0.86,
+      "semantic_score": 0.76,
+      "signal_score": 0.91,
+      "radar_score": 0.61,
+      "motion_score": 0.82
+    }
+  },
+  {
+    "candidate_id": "C04",
+    "candidate_source": "radar-spectrum",
+    "scenario": "自然冲突",
+    "radar_track_id": "trk_track_radar_204",
+    "spectrum_track_id": "trk_track_spectrum_79490",
+    "recognize_track_id": "trk_track_recognize_5",
+    "time_overlap": 96,
+    "azimuth_diff": 8.4,
+    "kg_score": 0.83,
+    "rank": 4,
+    "conflict_flag": true,
+    "decision_status": "uncertain",
+    "score_breakdown": {
+      "time_score": 0.86,
+      "azimuth_score": 0.83,
+      "semantic_score": 0.52,
+      "signal_score": 0.9,
+      "radar_score": 0.58,
+      "motion_score": 0.82
+    }
+  },
+  {
+    "candidate_id": "C05",
+    "candidate_source": "radar-spectrum",
+    "scenario": "重复频谱",
+    "radar_track_id": "trk_track_radar_205",
+    "spectrum_track_id": "trk_track_spectrum_79490",
+    "recognize_track_id": "",
+    "time_overlap": 80,
+    "azimuth_diff": 10,
+    "kg_score": 0.805,
+    "rank": 5,
+    "conflict_flag": false,
+    "decision_status": "uncertain",
+    "score_breakdown": {
+      "time_score": 0.85,
+      "azimuth_score": 0.8,
+      "semantic_score": 0.7,
+      "signal_score": 0.9,
+      "radar_score": 0.55,
+      "motion_score": 0.82
+    }
+  },
+  {
+    "candidate_id": "C06",
+    "candidate_source": "radar-spectrum",
+    "scenario": "重复频谱",
+    "radar_track_id": "trk_track_radar_206",
+    "spectrum_track_id": "trk_track_spectrum_79491",
+    "recognize_track_id": "",
+    "time_overlap": 78,
+    "azimuth_diff": 11.6,
+    "kg_score": 0.78,
+    "rank": 6,
+    "conflict_flag": false,
+    "decision_status": "uncertain",
+    "score_breakdown": {
+      "time_score": 0.84,
+      "azimuth_score": 0.77,
+      "semantic_score": 0.7,
+      "signal_score": 0.89,
+      "radar_score": 0.52,
+      "motion_score": 0.82
+    }
+  },
+  {
+    "candidate_id": "C07",
+    "candidate_source": "radar-recognize",
+    "scenario": "缺失频谱",
+    "radar_track_id": "trk_track_radar_209",
+    "spectrum_track_id": "",
+    "recognize_track_id": "trk_track_recognize_4",
+    "time_overlap": 64,
+    "azimuth_diff": 13.2,
+    "kg_score": 0.755,
+    "rank": 7,
+    "conflict_flag": true,
+    "decision_status": "uncertain",
+    "score_breakdown": {
+      "time_score": 0.83,
+      "azimuth_score": 0.74,
+      "semantic_score": 0.74,
+      "signal_score": 0,
+      "radar_score": 0.49,
+      "motion_score": 0.82
+    }
+  },
+  {
+    "candidate_id": "C08",
+    "candidate_source": "radar-only",
+    "scenario": "仅雷达",
+    "radar_track_id": "trk_track_radar_208",
+    "spectrum_track_id": "",
+    "recognize_track_id": "",
+    "time_overlap": 116,
+    "azimuth_diff": 14.8,
+    "kg_score": 0.73,
+    "rank": 8,
+    "conflict_flag": false,
+    "decision_status": "confirm",
+    "score_breakdown": {
+      "time_score": 0.82,
+      "azimuth_score": 0.71,
+      "semantic_score": 0.55,
+      "signal_score": 0,
+      "radar_score": 0.46,
+      "motion_score": 0.82
+    }
+  },
+  {
+    "candidate_id": "C09",
+    "candidate_source": "radar-spectrum",
+    "scenario": "缺失视觉",
+    "radar_track_id": "trk_track_radar_209",
+    "spectrum_track_id": "trk_track_spectrum_79490",
+    "recognize_track_id": "",
+    "time_overlap": 128,
+    "azimuth_diff": 16.4,
+    "kg_score": 0.705,
+    "rank": 9,
+    "conflict_flag": false,
+    "decision_status": "confirm",
+    "score_breakdown": {
+      "time_score": 0.81,
+      "azimuth_score": 0.68,
+      "semantic_score": 0.78,
+      "signal_score": 0.93,
+      "radar_score": 0.43,
+      "motion_score": 0.82
+    }
+  },
+  {
+    "candidate_id": "C10",
+    "candidate_source": "radar-spectrum",
+    "scenario": "完整模态",
+    "radar_track_id": "trk_track_radar_210",
+    "spectrum_track_id": "trk_track_spectrum_79490",
+    "recognize_track_id": "",
+    "time_overlap": 140,
+    "azimuth_diff": 18,
+    "kg_score": 0.68,
+    "rank": 10,
+    "conflict_flag": false,
+    "decision_status": "uncertain",
+    "score_breakdown": {
+      "time_score": 0.8,
+      "azimuth_score": 0.65,
+      "semantic_score": 0.7,
+      "signal_score": 0.93,
+      "radar_score": 0.4,
+      "motion_score": 0.82
+    }
+  }
+]

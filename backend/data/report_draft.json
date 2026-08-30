@@ -1,0 +1,30 @@
+{
+  "items": [
+    {
+      "type": "overview",
+      "title": "数据集概况",
+      "content": "当前系统包含 radar、spectrum、recognize、pho_status、decrypt 等多模态数据，支持轨迹级 evidence summary。"
+    },
+    {
+      "type": "kg",
+      "title": "知识图谱信息",
+      "content": "知识图谱包含设备、观测帧、轨迹、轨迹点、空间位置、运动特征、频谱特征和视觉特征等节点。"
+    },
+    {
+      "type": "decision",
+      "title": "候选 C01 大模型研判",
+      "content": "候选证据链已整理，建议结合 KG 分数、冲突标记和人工复核结果综合判断。"
+    },
+    {
+      "type": "experiment",
+      "title": "实验结果摘要",
+      "content": "KG Fusion 能降低虚警，KG+LLM 在部分模态缺失场景可改变 positive 集合，自然冲突仍为短板场景。"
+    },
+    {
+      "type": "risk",
+      "title": "风险与局限性",
+      "content": "当前系统未接入实时传感器闭环，LLM 研判应作为受控辅助裁决模块使用。"
+    }
+  ],
+  "title": "无人机多源融合研判报告"
+}

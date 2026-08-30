@@ -1,0 +1,37 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.env
+
+# ===== Node =====
+node_modules/
+dist/
+dist-ssr/
+*.local
+.vite/
+
+# ===== 日志 / 临时文件 =====
+*.log
+*.err
+*.pid
+.DS_Store
+Thumbs.db
+tmp/
+debug.log
+
+# ===== IDE =====
+.idea/
+.vscode/
+*.suo
+*.user
+
+# ===== 运行时生成数据（按需取消注释）=====
+# 如需将演示数据一并开源，可注释掉以下规则
+backend/outputs/
+backend/data/ultralytics_config/
+backend/data/settings.json
+backend/data/chat_sessions.json
